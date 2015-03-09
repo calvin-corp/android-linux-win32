@@ -1,0 +1,185 @@
+/* 
+    Created on : 8-Mar-2015, 4:18:50 PM
+    Author     : Calvin
+*/
+.clearfix
+{
+    clear: both;
+}
+
+html, body
+{
+    padding: 0;
+    margin: 0;
+    min-width: 940px;
+    background: #D0CCBC;
+}
+
+header
+{
+    position: relative;
+    background: #F5F5EE;
+    box-shadow: 0 0px 20px #777;
+    z-index: 999;
+}
+
+#logo
+{
+    float: left;
+}
+
+#statistics
+{
+    float: right;
+    margin: 16px 32px 32px 0;
+    font-size: 1.25em;
+    padding: 12px;
+    background: #FCFCFC;
+    border: 1px solid #D0CCBC;
+}
+
+#statistics .label
+{
+    display: inline-block;
+    width: 180px;
+}
+
+#statistics .num-users
+{
+    display: inline-block;
+    width: 50px;
+    color: #f00;
+}
+
+#content
+{
+    padding: 24px 24px;
+    height: 100%;
+    background: #fff;
+}
+
+#user-panel
+{
+    float: left;
+    width: 20%;
+    margin-right: 5%;
+}
+
+#user-panel h3
+{
+    margin: 0;
+}
+
+#user-panel table
+{
+    width: 100%;
+    border: 1px solid #D0CCBC;
+    border-spacing: 1px;
+    background: #D0CCBC;
+}
+
+#user-panel table thead
+{
+    background: #D0CCBC;
+}
+
+#user-panel table td
+{
+    background: #FCFCFC;
+    padding: 2px 8px;
+}
+
+#user-panel table tbody
+{
+    max-height: 500px;
+    overflow-y: hidden;
+}
+
+#user-panel table .th-id
+{
+    text-align: left;
+}
+
+#user-panel table .th-visible
+{
+    width: 36px;
+    text-align: center;
+}
+
+
+#user-panel table .th-live
+{
+    width: 48px;
+    text-align: center;
+}
+
+#map-panel
+{
+    float: left;
+    width: 75%;
+}
+
+.top-bar
+{
+    margin-bottom: 6px;
+}
+
+#map-panel h3, #map-panel h2
+{
+    display: inline-block;
+    margin: 0 12px;
+}
+
+#playback-controls
+{
+    float: left;
+    width: 105px;
+    padding: 4px 2px 0;
+    border: 1px solid #D0CCBC;
+}
+
+#playback-controls .btn
+{
+    width: 32px;
+    height: 26px;
+    display: inline-block;
+    background-size: 100% 100%;
+}
+
+#playback-controls .play
+{
+    background-image: url('../img/play.png');
+}
+
+#playback-controls .stop
+{
+    background-image: url('../img/stop.png');
+}
+
+#playback-controls .pause
+{
+    background-image: url('../img/pause.png');
+}
+
+#map-container
+{
+    position: relative;
+    width: 100%;
+    padding-bottom: 50%;
+    border: 1px solid #D0CCBC;
+}
+
+#map-canvas
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+footer
+{
+    text-align: center;
+    font-size: 1.1em;
+}
