@@ -1,6 +1,7 @@
 /* 
+    Stylesheet for SuperBigBrother3000
     Created on : 8-Mar-2015, 4:18:50 PM
-    Author     : Calvin
+    Author     : Calvin Rempel
 */
 .clearfix
 {
@@ -32,7 +33,6 @@ header
 {
     float: right;
     margin: 16px 32px 32px 0;
-    font-size: 1.25em;
     padding: 12px;
     background: #FCFCFC;
     border: 1px solid #D0CCBC;
@@ -133,7 +133,6 @@ header
 #playback-controls
 {
     float: left;
-    width: 105px;
     padding: 4px 2px 0;
     border: 1px solid #D0CCBC;
 }
@@ -176,6 +175,16 @@ header
     left: 0;
     right: 0;
     bottom: 0;
+}
+
+.map-marker-info h3
+{
+    margin-left: 0;
+}
+
+.map-marker-info table td:nth-child(1)
+{
+    font-weight: bold;
 }
 
 footer
