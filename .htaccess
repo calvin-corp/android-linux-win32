@@ -1,5 +1,5 @@
 AuthType Basic
-AuthUserFile /home/calvinre/.htpasswd
+AuthUserFile /path/to/.htpasswd
 AuthName "Super BigBrother 3000"
 Require valid-user
 ErrorDocument 401 "Authorisation Required"
